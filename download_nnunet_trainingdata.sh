@@ -14,9 +14,9 @@ else
 fi
 
 SURFDRIVE_LINK="https://surfdrive.surf.nl/files/index.php/s/SZQbuO7dc9HX7av/download"
-EXTRACT_DIR="$nnUNet_raw_data_base/nnUNet_raw_data"
+EXTRACT_DIR="$nnUNet_raw_data_base"
 ZIP_NAME="Task900_ACDC_Phys.zip"
-ZIP_PATH="$nnUNet_raw_data_base/nnUNet_raw_data/$ZIP_NAME"
+ZIP_PATH="$nnUNet_raw_data_base/$ZIP_NAME"
 
 curl -L --fail --show-error "$SURFDRIVE_LINK" -o "$ZIP_PATH"
 
