@@ -40,9 +40,9 @@ pip install -e .
 Set the environmental variables required:
 
 ```bash
-export nnUNet_raw_data_base="/path/to/nnunetdata/raw"
-export nnUNet_preprocessed="/path/to/nnunetdata/preprocessed"
-export RESULTS_FOLDER="/path/to/nnunetdata/results"
+export nnUNet_raw_data_base="/data/Data/nnunetdata/raw"
+export nnUNet_preprocessed="/data/Data/nnunetdata/preprocessed"
+export RESULTS_FOLDER="/data/Projects/cmr_reverse/results"
 ```
 
 

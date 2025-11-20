@@ -174,3 +174,7 @@ cython_debug/
 .pypirc
 
 dump/
+
+# results
+results/
+reverse_imaging_results/
